@@ -1,0 +1,31 @@
+ext {
+    composeVersion = '1.1.1'
+    lifecycleVersion = '2.4.1'
+    composeActivityVersion = '1.4.0'
+    coreKtxVersion = '1.7.0'
+    junitVersion = '4.13.2'
+    androidXJunitVersion = '1.1.3'
+    espressoVersion = '3.4.0'
+    okhttpVersion = '4.9.3'
+    retrofitVersion = '2.9.0'
+
+    deps = [
+            coreKtx        : "androidx.core:core-ktx:$coreKtxVersion",
+            composeUi      : "androidx.compose.ui:ui:$composeVersion",
+            composeMaterial: "androidx.compose.material:material:$composeVersion",
+            composePreview : "androidx.compose.ui:ui-tooling-preview:$composeVersion",
+            lifecycleKtx   : "androidx.lifecycle:lifecycle-runtime-ktx:$lifecycleVersion",
+            composeActivity: "androidx.activity:activity-compose:$composeActivityVersion",
+            okHttp: "com.squareup.okhttp3:okhttp:$okhttpVersion",
+            retrofit: "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            gsonConverter: "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    ]
+
+    testDeps = [
+            junit         : "junit:junit:$junitVersion",
+            androidXJunit : "androidx.test.ext:junit:$androidXJunitVersion",
+            espresso      : "androidx.test.espresso:espresso-core:$espressoVersion",
+            composeUiJunit: "androidx.compose.ui:ui-test-junit4:$composeVersion",
+    ]
+
+}
