@@ -1,4 +1,4 @@
-package com.example.jalka
+package com.example.jalka.data.models
 
 data class MatchesResponse(
     val matches: List<Match>

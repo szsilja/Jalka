@@ -1,4 +1,4 @@
-package com.example.jalka
+package com.example.jalka.data
 
 object Urls {
     const val predictions: String = "https://run.mocky.io/v3/b863c187-c30d-40cf-b49f-ebf54c30cd09"

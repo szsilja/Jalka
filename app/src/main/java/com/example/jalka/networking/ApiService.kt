@@ -1,5 +1,7 @@
-package com.example.jalka
+package com.example.jalka.networking
 
+import com.example.jalka.data.Urls
+import com.example.jalka.data.models.MatchesResponse
 import retrofit2.Call
 import retrofit2.http.GET
 
