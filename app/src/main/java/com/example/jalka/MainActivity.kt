@@ -16,6 +16,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         predictionsRepository.predictionsRequest()
+        predictionsRepository.testStringReturningFunction()
 
         setContent {
             PredictionScreen(DefaultPredictions.predictions)

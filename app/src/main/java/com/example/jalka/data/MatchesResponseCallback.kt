@@ -9,6 +9,8 @@ import retrofit2.Response
 class MatchesResponseCallback : Callback<MatchesResponse> {
     override fun onResponse(call: Call<MatchesResponse>, response: Response<MatchesResponse>) {
         Log.e("SILJA", "Response: ${response.body()}")
+
+
     }
 
     override fun onFailure(call: Call<MatchesResponse>, t: Throwable) {
